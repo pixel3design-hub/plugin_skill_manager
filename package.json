@@ -1,0 +1,56 @@
+{
+  "name": "pi-skill-manager",
+  "version": "0.1.0",
+  "description": "Prompt token audit, session-scoped skill/plugin manager, and project-based resource recommender for Pi",
+  "type": "module",
+  "license": "MIT",
+  "keywords": [
+    "pi-package",
+    "pi-extension",
+    "skills",
+    "tokens",
+    "prompt"
+  ],
+  "files": [
+    "extensions",
+    "lib",
+    "ui",
+    "README.md"
+  ],
+  "pi": {
+    "extensions": [
+      "./extensions/skill-manager.ts"
+    ]
+  },
+  "scripts": {
+    "test": "node --test test/*.test.ts",
+    "check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "gpt-tokenizer": "^4.1.2"
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-ai": "*",
+    "@earendil-works/pi-coding-agent": "*",
+    "@earendil-works/pi-tui": "*",
+    "typebox": "*"
+  },
+  "devDependencies": {
+    "@types/node": "^22.19.0",
+    "typescript": "^5.7.0"
+  },
+  "peerDependenciesMeta": {
+    "@earendil-works/pi-ai": {
+      "optional": true
+    },
+    "@earendil-works/pi-coding-agent": {
+      "optional": true
+    },
+    "@earendil-works/pi-tui": {
+      "optional": true
+    },
+    "typebox": {
+      "optional": true
+    }
+  }
+}

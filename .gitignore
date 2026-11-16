@@ -1,0 +1,15 @@
+# Only the package ships (see package.json#files). Everything else stays local.
+
+node_modules/
+.types/
+
+pi-installation-report.md
+*.log
+
+.agents/
+
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/

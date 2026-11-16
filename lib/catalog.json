@@ -1,0 +1,98 @@
+[
+	{
+		"id": "npm:billion-context",
+		"kind": "plugin",
+		"name": "billion-context",
+		"description": "Context compression plugin: smaller context windows, fewer tokens per request, long single sessions.",
+		"keywords": ["context", "compression", "tokens", "long", "session", "memory"],
+		"install": "pi install npm:billion-context"
+	},
+	{
+		"id": "npm:pi-web-access",
+		"kind": "plugin",
+		"name": "pi-web-access",
+		"description": "Web search, URL fetching, GitHub cloning, PDF extraction, video understanding tools.",
+		"keywords": ["web", "search", "fetch", "http", "scrape", "pdf", "youtube", "browser"],
+		"install": "pi install npm:pi-web-access"
+	},
+	{
+		"id": "npm:pi-mcp-adapter",
+		"kind": "plugin",
+		"name": "pi-mcp-adapter",
+		"description": "Model Context Protocol adapter extension for MCP servers.",
+		"keywords": ["mcp", "server", "protocol", "tools", "integration"],
+		"install": "pi install npm:pi-mcp-adapter"
+	},
+	{
+		"id": "npm:pi-subagents",
+		"kind": "plugin",
+		"name": "pi-subagents",
+		"description": "Single-agent delegation and scripted multi-agent workflows.",
+		"keywords": ["subagent", "workflow", "parallel", "orchestration", "delegation"],
+		"install": "pi install npm:pi-subagents"
+	},
+	{
+		"id": "npm:context-mode",
+		"kind": "plugin",
+		"name": "context-mode",
+		"description": "Context window saver with sandboxed code execution, full-text search and session continuity.",
+		"keywords": ["context", "sandbox", "search", "sqlite", "fts", "session"],
+		"install": "pi install npm:context-mode"
+	},
+	{
+		"id": "npm:cc-safety-net",
+		"kind": "plugin",
+		"name": "cc-safety-net",
+		"description": "Blocks destructive shell commands and secret file access.",
+		"keywords": ["safety", "security", "secrets", "guard", "hooks", "destructive"],
+		"install": "pi install npm:cc-safety-net"
+	},
+	{
+		"id": "npm:@postman/postman-plugin",
+		"kind": "plugin",
+		"name": "@postman/postman-plugin",
+		"description": "Postman API engineering skills: collections, environments, API testing.",
+		"keywords": ["api", "rest", "http", "postman", "openapi", "testing", "collection"],
+		"install": "pi install npm:@postman/postman-plugin"
+	},
+	{
+		"id": "git:github.com/blader/humanizer",
+		"kind": "skill",
+		"name": "humanizer",
+		"description": "Skill that rewrites AI-sounding prose into the writer's own voice.",
+		"keywords": ["writing", "prose", "docs", "readme", "copy", "editing", "style"],
+		"install": "pi install git:github.com/blader/humanizer"
+	},
+	{
+		"id": "git:github.com/pixel3design-hub/Pi.dev-court-skill",
+		"kind": "skill",
+		"name": "court",
+		"description": "Puts an idea, plan or claim on trial in front of adversarial sub-agents.",
+		"keywords": ["review", "critique", "debate", "decision", "pushback", "plan"],
+		"install": "pi install git:github.com/pixel3design-hub/Pi.dev-court-skill"
+	},
+	{
+		"id": "git:github.com/badlogic/pi-skills",
+		"kind": "skill",
+		"name": "pi-skills",
+		"description": "Reference collection of Pi skills (documentation, planning, review workflows).",
+		"keywords": ["skills", "collection", "workflow", "planning", "review"],
+		"install": "pi install git:github.com/badlogic/pi-skills"
+	},
+	{
+		"id": "npm:pi-image-tools",
+		"kind": "plugin",
+		"name": "pi-image-tools",
+		"description": "Image inspection and generation helpers for Pi.",
+		"keywords": ["image", "png", "jpeg", "svg", "screenshot", "vision", "design"],
+		"install": "pi install npm:pi-image-tools"
+	},
+	{
+		"id": "npm:pi-notify",
+		"kind": "plugin",
+		"name": "pi-notify",
+		"description": "Desktop and terminal notifications when an agent run finishes.",
+		"keywords": ["notify", "notification", "alert", "desktop", "long", "build"],
+		"install": "pi install npm:pi-notify"
+	}
+]
