@@ -15,11 +15,14 @@ A footer badge (`prompt 16.2k`) tracks the projected prompt cost across the sess
 ## Install
 
 ```bash
-pi install /path/to/plugin_skill_manager     # persistent
-pi -e /path/to/plugin_skill_manager          # try it for one run
+pi install git:github.com/pixel3design-hub/plugin_skill_manager   # from the repository
+pi install /path/to/plugin_skill_manager                           # local checkout
+pi -e /path/to/plugin_skill_manager                                # try it for one run
 ```
 
-Local checkouts need `npm install` for the tokenizer dependency.
+A local checkout needs `npm install` for the tokenizer dependency; Pi installs it for the git and
+npm sources. Development: `npm test` and `npm run check` (the check needs the host types symlinked
+into `.types/`, see below).
 
 ## Colour legend
 
