@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "Prompt token audit, session-scoped skill/plugin manager, and project-based resource recommender for Pi",
   "type": "module",
-  "license": "MIT",
+  "license": "GPL-2.0-only",
   "keywords": [
     "pi-package",
     "pi-extension",
@@ -15,6 +15,7 @@
     "extensions",
     "lib",
     "ui",
+    "LICENSE",
     "README.md"
   ],
   "pi": {
@@ -52,5 +53,13 @@
     "typebox": {
       "optional": true
     }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pixel3design-hub/plugin_skill_manager.git"
+  },
+  "homepage": "https://github.com/pixel3design-hub/plugin_skill_manager#readme",
+  "bugs": {
+    "url": "https://github.com/pixel3design-hub/plugin_skill_manager/issues"
   }
 }

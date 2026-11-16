@@ -102,3 +102,7 @@ mkdir -p .types && ln -sfn "$(dirname "$(readlink -f "$(command -v pi)")")/../no
 
 Host packages are `peerDependencies` marked optional on purpose: Pi maps them at runtime, and a
 second physical copy inside this package can duplicate classes and registries.
+
+## License
+
+GPL-2.0-only. See `LICENSE`.
