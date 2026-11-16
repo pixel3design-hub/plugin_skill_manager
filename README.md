@@ -106,3 +106,5 @@ second physical copy inside this package can duplicate classes and registries.
 ## License
 
 GPL-2.0-only. See `LICENSE`.
+
+Copyright (C) 2026 Cristiano Gariboldo <social@pixel3design.it>.

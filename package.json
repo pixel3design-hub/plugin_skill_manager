@@ -2,8 +2,9 @@
   "name": "pi-skill-manager",
   "version": "0.1.0",
   "description": "Prompt token audit, session-scoped skill/plugin manager, and project-based resource recommender for Pi",
-  "type": "module",
+  "author": "Cristiano Gariboldo <social@pixel3design.it> (https://github.com/pixel3design-hub)",
   "license": "GPL-2.0-only",
+  "type": "module",
   "keywords": [
     "pi-package",
     "pi-extension",
@@ -36,10 +37,6 @@
     "@earendil-works/pi-tui": "*",
     "typebox": "*"
   },
-  "devDependencies": {
-    "@types/node": "^22.19.0",
-    "typescript": "^5.7.0"
-  },
   "peerDependenciesMeta": {
     "@earendil-works/pi-ai": {
       "optional": true
@@ -53,6 +50,10 @@
     "typebox": {
       "optional": true
     }
+  },
+  "devDependencies": {
+    "@types/node": "^22.19.0",
+    "typescript": "^5.7.0"
   },
   "repository": {
     "type": "git",
